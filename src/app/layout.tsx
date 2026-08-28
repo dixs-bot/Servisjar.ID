@@ -30,9 +30,6 @@ export const metadata: Metadata = {
     "ganti baterai",
   ],
   authors: [{ name: "JARVIS.ID" }],
-  verification: {
-    google: "6N-Mfe4cyHyY-Fl9Fo4-iOUfmIVjc_IebHSCy8PsuRA",
-  },
   metadataBase: new URL("http://localhost:3000"),
   alternates: {
     canonical: "/",
@@ -43,8 +40,8 @@ export const metadata: Metadata = {
       "Service HP panggilan Cimahi & Bandung. Oprek Android, custom ROM, root, hardware service, dan pengiriman unit dari luar daerah.",
     url: "http://localhost:3000",
     siteName: "JARVIS.ID",
-    locale: "id_ID",
     type: "website",
+    locale: "id_ID",
   },
   twitter: {
     card: "summary_large_image",
@@ -70,6 +67,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" suppressHydrationWarning>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="6N-Mfe4cyHyY-Fl9Fo4-iOUfmIVjc_IebHSCy8PsuRA"
+        />
+      </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground min-h-screen`}
       >
