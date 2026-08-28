@@ -1,11 +1,9 @@
-import { siteConfig } from "../data/siteConfig";
+const baseUrl = "https://servisjar-id.vercel.app";
 
 export default function sitemap() {
-  const baseUrl = "https://servisjar-id.vercel.app";
-
   return [
     {
-      url: `${baseUrl}/`,
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
