@@ -16,12 +16,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "JARVIS.ID – Service HP Panggilan & Oprek Android | Cimahi & Bandung",
   description:
-    "JARVIS.ID melayani service HP panggilan area Cimahi & Bandung, oprek Android, custom ROM, root, tanam Smali, hardware service dan pengiriman unit dari luar daerah.",
+    "JARVIS.ID melayani service HP panggilan area Cimahi & Bandung, oprek Android, custom ROM, root, tanam Smali, hardware service, dan pengiriman unit dari luar daerah.",
   keywords: [
     "JARVIS.ID",
     "service HP Cimahi",
     "service HP Bandung",
-    "service panggilan",
+    "service HP panggilan",
     "oprek Android",
     "custom ROM",
     "root Android",
@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     "ganti baterai",
   ],
   authors: [{ name: "JARVIS.ID" }],
+  verification: {
+    google: "6N-Mfe4cyHyY-Fl9Fo4-iOUfmIVjc_IebHSCy8PsuRA",
+  },
   metadataBase: new URL("http://localhost:3000"),
   alternates: {
     canonical: "/",
@@ -37,17 +40,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "JARVIS.ID – Service HP Panggilan & Oprek Android",
     description:
-      "Service HP panggilan Cimahi & Bandung. Oprek Android, custom ROM, root, hardware service. Kirim unit dari luar daerah.",
+      "Service HP panggilan Cimahi & Bandung. Oprek Android, custom ROM, root, hardware service, dan pengiriman unit dari luar daerah.",
     url: "http://localhost:3000",
     siteName: "JARVIS.ID",
-    type: "website",
     locale: "id_ID",
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "JARVIS.ID – Service HP Panggilan & Oprek Android",
     description:
-      "Service HP panggilan Cimahi & Bandung. Oprek Android, custom ROM, root, hardware service.",
+      "Service HP panggilan Cimahi & Bandung, oprek Android, custom ROM, root, dan hardware service.",
   },
   robots: {
     index: true,
