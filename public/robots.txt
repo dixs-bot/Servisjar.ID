@@ -1,0 +1,7 @@
+# JARVIS.ID robots.txt
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/admin
+
+Sitemap: http://localhost:3000/sitemap.xml
