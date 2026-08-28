@@ -15,8 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "JARVIS.ID – Service HP Panggilan & Oprek Android | Cimahi & Bandung",
+
   description:
     "JARVIS.ID melayani service HP panggilan area Cimahi & Bandung, oprek Android, custom ROM, root, tanam Smali, hardware service, dan pengiriman unit dari luar daerah.",
+
   keywords: [
     "JARVIS.ID",
     "service HP Cimahi",
@@ -29,29 +31,40 @@ export const metadata: Metadata = {
     "ganti LCD",
     "ganti baterai",
   ],
+
   authors: [{ name: "JARVIS.ID" }],
-  metadataBase: new URL("http://localhost:3000"),
+
+  metadataBase: new URL("https://servisjar-id.vercel.app"),
+
   alternates: {
     canonical: "/",
   },
+
   openGraph: {
     title: "JARVIS.ID – Service HP Panggilan & Oprek Android",
+
     description:
       "Service HP panggilan Cimahi & Bandung. Oprek Android, custom ROM, root, hardware service, dan pengiriman unit dari luar daerah.",
-    url: "http://localhost:3000",
+
+    url: "https://servisjar-id.vercel.app",
     siteName: "JARVIS.ID",
     type: "website",
     locale: "id_ID",
   },
+
   twitter: {
     card: "summary_large_image",
+
     title: "JARVIS.ID – Service HP Panggilan & Oprek Android",
+
     description:
       "Service HP panggilan Cimahi & Bandung, oprek Android, custom ROM, root, dan hardware service.",
   },
+
   robots: {
     index: true,
     follow: true,
+
     googleBot: {
       index: true,
       follow: true,
