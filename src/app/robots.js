@@ -1,22 +1,11 @@
-import { siteConfig } from "../data/siteConfig";
+const baseUrl = "https://servisjar-id.vercel.app";
 
 export default function robots() {
-  const baseUrl = "https://servisjar-id.vercel.app";
-
   return {
-    rules: [
-      {
-        userAgent: "*",
-        allow: "/",
-        disallow: [
-          "/api/",
-          "/_next/",
-        ],
-      },
-    ],
-
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
     sitemap: `${baseUrl}/sitemap.xml`,
-
-    host: baseUrl,
   };
 }
