@@ -1,11 +1,12 @@
 const baseUrl = "https://servisjar-id.vercel.app";
 
-export default function robots() {
-  return {
-    rules: {
-      userAgent: "*",
-      allow: "/",
+export default function sitemap() {
+  return [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1,
     },
-    sitemap: `${baseUrl}/sitemap.xml`,
-  };
+  ];
 }
